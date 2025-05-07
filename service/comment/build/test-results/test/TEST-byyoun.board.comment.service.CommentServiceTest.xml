@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="byyoun.board.comment.service.CommentServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-06T10:41:39.177Z" hostname="yunboyeong-ui-MacBookPro.local" time="0.47">
+  <properties/>
+  <testcase name="하위 댓글이 삭제되고, 삭제된 부모면, 재귀적으로 모두 삭제한다." classname="byyoun.board.comment.service.CommentServiceTest" time="0.47"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/yunboyeong/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.18/417558ea01fe9f0e8a94af28b9469d281c4e3984/byte-buddy-agent-1.14.18.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

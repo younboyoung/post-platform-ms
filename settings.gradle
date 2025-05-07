@@ -1,0 +1,12 @@
+rootProject.name = 'byyoun-board'
+
+include 'common'
+include 'common:snowflake'
+include 'service'
+include 'service:article'
+include 'service:article-read'
+include 'service:hot-article'
+include 'service:comment'
+include 'service:like'
+include 'service:read'
+include 'service:view'

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ArticleRepositoryTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ArticleRepositoryTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/byyoun.board.article.repository.html">byyoun.board.article.repository</a> &gt; ArticleRepositoryTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.330s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a href="#">Tests</a>
+</li>
+<li>
+<a href="#">Standard output</a>
+</li>
+<li>
+<a href="#">Standard error</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">findInfiniteScrollTest()</td>
+<td class="success">0.330s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>23:16:04.998 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [byyoun.board.article.repository.ArticleRepositoryTest]: ArticleRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:16:05.027 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration byyoun.board.article.ArticleApplication for test class byyoun.board.article.repository.ArticleRepositoryTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.2)
+
+2025-05-03T23:16:05.143+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : Starting ArticleRepositoryTest using Java 21.0.6 with PID 36787 (started by yunboyeong in /Users/yunboyeong/IdeaProjects/personal/byyoun-board/service/article)
+2025-05-03T23:16:05.144+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2025-05-03T23:16:05.320+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-03T23:16:05.336+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
+2025-05-03T23:16:05.458+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-03T23:16:05.474+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2025-05-03T23:16:05.485+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-03T23:16:05.574+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-03T23:16:05.582+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-03T23:16:05.703+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76dc36e5
+2025-05-03T23:16:05.704+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-03T23:16:05.724+09:00  WARN 36787 --- [yby-board-article-service] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-03T23:16:05.963+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-03T23:16:05.963+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-03T23:16:06.039+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-03T23:16:06.218+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : Started ArticleRepositoryTest in 1.153 seconds (process running for 1.472)
+2025-05-03T23:16:06.537+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186026
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186025
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186024
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186023
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186022
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186021
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186020
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186019
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186018
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186017
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186016
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186015
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186014
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186013
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186012
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186011
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186010
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186009
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186008
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186007
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186006
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186005
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186004
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186003
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186002
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186001
+2025-05-03T23:16:06.538+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831186000
+2025-05-03T23:16:06.539+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185999
+2025-05-03T23:16:06.539+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185998
+2025-05-03T23:16:06.539+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185997
+2025-05-03T23:16:06.546+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185996
+2025-05-03T23:16:06.546+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185995
+2025-05-03T23:16:06.546+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185994
+2025-05-03T23:16:06.546+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185993
+2025-05-03T23:16:06.546+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185992
+2025-05-03T23:16:06.546+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185991
+2025-05-03T23:16:06.546+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185990
+2025-05-03T23:16:06.546+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185989
+2025-05-03T23:16:06.547+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185988
+2025-05-03T23:16:06.547+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185987
+2025-05-03T23:16:06.547+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185986
+2025-05-03T23:16:06.547+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185985
+2025-05-03T23:16:06.547+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185984
+2025-05-03T23:16:06.547+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185983
+2025-05-03T23:16:06.547+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185982
+2025-05-03T23:16:06.547+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185981
+2025-05-03T23:16:06.547+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185980
+2025-05-03T23:16:06.547+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185979
+2025-05-03T23:16:06.547+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185978
+2025-05-03T23:16:06.547+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185977
+2025-05-03T23:16:06.547+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185976
+2025-05-03T23:16:06.547+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185975
+2025-05-03T23:16:06.547+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185974
+2025-05-03T23:16:06.547+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185973
+2025-05-03T23:16:06.547+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185972
+2025-05-03T23:16:06.547+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185971
+2025-05-03T23:16:06.547+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185970
+2025-05-03T23:16:06.547+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185969
+2025-05-03T23:16:06.547+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185968
+2025-05-03T23:16:06.547+09:00  INFO 36787 --- [yby-board-article-service] [    Test worker] b.b.a.repository.ArticleRepositoryTest   : articleId = 175585064831185967
+</pre>
+</span>
+</div>
+<div class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>WARNING: A Java agent has been loaded dynamically (/Users/yunboyeong/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.18/417558ea01fe9f0e8a94af28b9469d281c4e3984/byte-buddy-agent-1.14.18.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 8.13</a> at 2025. 5. 3. 오후 11:16:06</p>
+</div>
+</div>
+</body>
+</html>
