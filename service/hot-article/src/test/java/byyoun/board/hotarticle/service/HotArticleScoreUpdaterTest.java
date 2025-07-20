@@ -3,7 +3,7 @@ package byyoun.board.hotarticle.service;
 import byyoun.board.hotarticle.repository.ArticleCreatedTimeRepository;
 import byyoun.board.hotarticle.repository.HotArticleListRepository;
 import byyoun.board.hotarticle.service.eventhandler.EventHandler;
-import kuke.board.common.event.Event;
+import byyoun.board.common.event.Event;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 

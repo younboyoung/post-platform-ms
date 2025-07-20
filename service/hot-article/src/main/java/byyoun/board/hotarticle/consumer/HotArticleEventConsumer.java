@@ -1,9 +1,9 @@
 package byyoun.board.hotarticle.consumer;
 
 import byyoun.board.hotarticle.service.HotArticleService;
-import kuke.board.common.event.Event;
-import kuke.board.common.event.EventPayload;
-import kuke.board.common.event.EventType;
+import byyoun.board.common.event.Event;
+import byyoun.board.common.event.EventPayload;
+import byyoun.board.common.event.EventType;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;

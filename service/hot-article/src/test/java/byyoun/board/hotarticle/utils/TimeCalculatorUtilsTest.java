@@ -12,7 +12,7 @@ class TimeCalculatorUtilsTest {
         Duration duration = TimeCalculatorUtils.calculateDurationToMidnight();
 
         // 22시 32분
-        System.out.println("duration.getSeconds() / 60 =" + duration.getSeconds() / 60);
+        System.out.println("duration.getSeconds() / 60 = " + duration.getSeconds() / 60);
 
     }
 }

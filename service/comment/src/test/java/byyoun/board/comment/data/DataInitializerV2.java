@@ -5,7 +5,7 @@ import byyoun.board.comment.entity.CommentPath;
 import byyoun.board.comment.entity.CommentV2;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
-import kuke.board.common.snowflake.Snowflake;
+import byyoun.board.common.snowflake.Snowflake;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

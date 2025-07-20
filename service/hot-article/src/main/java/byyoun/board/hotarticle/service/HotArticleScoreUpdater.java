@@ -5,8 +5,8 @@ import byyoun.board.hotarticle.repository.ArticleCreatedTimeRepository;
 import byyoun.board.hotarticle.repository.HotArticleListRepository;
 import byyoun.board.hotarticle.service.eventhandler.EventHandler;
 import byyoun.board.hotarticle.service.response.HotArticleResponse;
-import kuke.board.common.event.Event;
-import kuke.board.common.event.EventPayload;
+import byyoun.board.common.event.Event;
+import byyoun.board.common.event.EventPayload;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

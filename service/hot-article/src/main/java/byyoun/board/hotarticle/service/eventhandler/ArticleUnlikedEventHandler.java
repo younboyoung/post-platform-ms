@@ -2,9 +2,9 @@ package byyoun.board.hotarticle.service.eventhandler;
 
 import byyoun.board.hotarticle.repository.ArticleLikeCountRepository;
 import byyoun.board.hotarticle.utils.TimeCalculatorUtils;
-import kuke.board.common.event.Event;
-import kuke.board.common.event.EventType;
-import kuke.board.common.event.payload.ArticleUnlikedEventPayload;
+import byyoun.board.common.event.Event;
+import byyoun.board.common.event.EventType;
+import byyoun.board.common.event.payload.ArticleUnlikedEventPayload;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

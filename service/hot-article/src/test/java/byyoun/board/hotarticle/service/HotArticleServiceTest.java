@@ -1,8 +1,8 @@
 package byyoun.board.hotarticle.service;
 
 import byyoun.board.hotarticle.service.eventhandler.EventHandler;
-import kuke.board.common.event.Event;
-import kuke.board.common.event.EventType;
+import byyoun.board.common.event.Event;
+import byyoun.board.common.event.EventType;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

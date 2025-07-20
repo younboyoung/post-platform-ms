@@ -1,7 +1,7 @@
 package byyoun.board.hotarticle.service.eventhandler;
 
-import kuke.board.common.event.Event;
-import kuke.board.common.event.EventPayload;
+import byyoun.board.common.event.Event;
+import byyoun.board.common.event.EventPayload;
 
 public interface EventHandler<T extends EventPayload> {
     void handle(Event<T> event);
