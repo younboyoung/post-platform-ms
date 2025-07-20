@@ -5,13 +5,12 @@ import byyoun.board.comment.repository.CommentRepository;
 import byyoun.board.comment.service.request.CommentCreateRequest;
 import byyoun.board.comment.service.response.CommentPageResponse;
 import byyoun.board.comment.service.response.CommentResponse;
-import kuke.board.common.snowflake.Snowflake;
+import byyoun.board.common.snowflake.Snowflake;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 import static java.util.function.Predicate.not;
 
